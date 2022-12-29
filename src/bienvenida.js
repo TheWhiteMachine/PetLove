@@ -5,6 +5,7 @@ export default class Bienvenida extends React.Component {
     this.state = {
       valor: "",
     };
+    this.cambioValor = this.cambioValor.bind(this);
   }
   cambioValor(event) {
     let datoIngresado = event.target.value;
@@ -17,10 +18,9 @@ export default class Bienvenida extends React.Component {
         <input
           type="text"
           placeholder="Tu nombre"
-          onChange={this.cambiaValor}
+          onChange={this.cambioValor}
         ></input>
-        <h4>Hola, </h4>
-        <p>{this.state.valor}</p>
+        <h4>Hola, {this.state.valor} </h4>
       </>
     );
   }

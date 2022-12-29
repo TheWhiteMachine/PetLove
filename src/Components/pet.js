@@ -18,12 +18,11 @@ export default class Pet extends React.Component {
         <div className="row">
           <div
             className={
-              "col-12 d-flex aling-items-center " +
-              (this.state.escondido ? "d-none" : "")
+              "col-12 d-flex " + (this.state.escondido ? "d-none" : "")
             }
           >
             <img
-              className="img-thumbnail img-fluid w-5 mx-auto rounded mr-2 "
+              className="img-thumbnail img-fluid w-5 rounded mr-2 "
               src={this.props.img}
               alt={this.props.nombre}
               width="280"
