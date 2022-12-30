@@ -1,5 +1,6 @@
 import React from "react";
 import Biennvenida from "../bienvenida";
+import Suscripcion from "../Components/suscripcion";
 
 export default class InicioPage extends React.Component {
   render() {
@@ -32,6 +33,7 @@ export default class InicioPage extends React.Component {
             Próximamente bridnaremos la posiblidad de adoptar mascotas a través
             de esta página
           </p>
+          <Suscripcion/>
         </div>
       </>
     );

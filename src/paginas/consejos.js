@@ -6,6 +6,7 @@ export default class Consejos extends React.Component {
   render() {
     return (
       <>
+        <div className="mt-5">----</div>
         <div className="container mt-5">
           <h1>A tener en cuenta para elegir mascota</h1>
           <br></br>

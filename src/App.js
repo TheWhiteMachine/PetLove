@@ -7,6 +7,7 @@ import InicioPage from "./paginas/InicioPage";
 import PetsPage from "./paginas/PetsPage";
 import Consejos from "./paginas/consejos";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import ListaGatos from "./paginas/ListaGatos";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contacto" element={<ContactoPage />}></Route>
           <Route path="/pets" element={<PetsPage />}></Route>
           <Route path="/consejos" element={<Consejos />}></Route>
+          <Route path="/listagatos" element={<ListaGatos />}></Route>
         </Routes>
       </Router>
       <Footer />

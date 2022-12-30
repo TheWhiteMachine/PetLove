@@ -25,6 +25,7 @@ export default class ContactoPage extends React.Component {
   render() {
     return (
       <>
+        <div className="mt-5">----</div>
         <div className="container mx-auto">
           <h2>CONTACTO</h2>
           <h3>Escribenos un mensaje</h3>
